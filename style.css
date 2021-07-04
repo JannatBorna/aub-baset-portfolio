@@ -1,0 +1,93 @@
+body{
+  
+   font-family:'poppins' ,sans-serif;
+   margin: 0;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.flower{
+    color: orangered;
+}
+
+.flexible-container{
+    display: flex;
+      margin-bottom: 200px;
+}
+.febo{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(128, 0, 79), rgb(211, 158, 199));
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+}
+.febo-two{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(241, 92, 5), rgb(241, 185, 79));
+    padding: 10px 15px;
+    margin: 20px;
+    border-radius: 5px;
+    color: white;
+    font: weight 400px; ;
+}
+.top-banner{
+
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.chobi{
+ width: 200%;
+ padding-left: 10%;
+}
+
+.chobi img{
+    width: 80%;
+}
+
+.beautiful{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.color{
+    color: orangered;
+}
+
+.experience-area{
+ background-image: url(images/exp-bg.png);
+ background-repeat: no-repeat;
+ background-position:left;
+}
+
+.experience-item{
+width: 40%;
+margin-left: 5%;
+margin-right: 5%;
+padding-left: 25px;
+border-radius: 5px;
+box-shadow: 10px 10px 30px;
+}
+
+#full-stack-chef{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+
+#baby-chef-my-child{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange,rgb(243, 82, 82));
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    color: peru;
+}
